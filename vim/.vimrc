@@ -10,6 +10,8 @@ inoremap <S-left> <C-o>gT
 inoremap <S-right> <C-o>gt
 set backspace=indent,eol,start
 set directory^=$HOME/.vim/swp//
+set backupdir^=$HOME/.vim/backup//
+set undodir^=$HOME/.vim/undo//
 noremap <C-right> w
 noremap <C-left> b
 inoremap <C-right> <C-o>w
@@ -22,3 +24,5 @@ set showmatch " Shows matching brackets
 set ruler " Always shows location in file (line#)
 set nu
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+syntax on
+
