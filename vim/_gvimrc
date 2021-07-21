@@ -1,0 +1,9 @@
+set guifont=Hermit:h11
+colorscheme darkblue
+set vb t_vb=
+set ruler
+set go-=T
+set ch=2
+set showmatch
+syntax on
+set clipboard=unnamed
