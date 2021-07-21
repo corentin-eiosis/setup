@@ -19,3 +19,4 @@
 	ds = diff --staged
 	co = checkout
 	l = log --oneline --graph --decorate --pretty='format:%C(Yellow)%h%C(reset)%C(auto)%d%C(reset) - %C(green)%ar%C(reset) %C(cyan)<%an>%C(reset) %s'
+	sub = submodule update --init --recursive
