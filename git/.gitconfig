@@ -1,0 +1,21 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Corentin Marciau
+	email = corentin.marciau@eiosis.com
+[core]
+	editor = vim
+[color]
+	ui = auto
+[alias]
+	s = status
+	a = add
+	b = branch
+	c = commit
+	d = diff
+	ds = diff --staged
+	co = checkout
+	l = log --oneline --graph --decorate --pretty='format:%C(Yellow)%h%C(reset)%C(auto)%d%C(reset) - %C(green)%ar%C(reset) %C(cyan)<%an>%C(reset) %s'
